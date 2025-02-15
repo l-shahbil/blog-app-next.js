@@ -22,7 +22,7 @@ export default function LogoutButton() {
   }
 
   return (
-    <button className='btn-primary bg-red-500 hover:bg-red-700 w-full ' onClick={handleLogout}>
+    <button className='bg-red-500 hover:bg-red-700 w-full ' onClick={handleLogout}>
       LogOut
     </button>
   )
