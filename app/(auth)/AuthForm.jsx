@@ -8,7 +8,7 @@ export default function AuthForm({ handleSubmit }) {
   
   
   return(
-    <form onSubmit={(e) => handleSubmit(e, email, password)} className="max-w-md mx-auto space-y-6 bg-white p-6 rounded-lg shadow-lg">
+    <form onSubmit={(e) => handleSubmit(e, email, password)} className="max-w-md mx-auto">
       <div>
         <label className="block text-lg font-medium mb-2">Email</label>
         <input

@@ -15,9 +15,9 @@ export default function FormBlog({action,blog}) {
   
 
   return (
-    <div>
-      <Link href={"/blogs"}>My Blogs</Link>
-    <form action={action} className="w-full max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg">
+    <div className='w-[90%] md:w-fit'>
+      <Link href={"/blogs"} className='block ml-auto w-fit mb-4'>My Blogs</Link>
+    <form action={action} className="w-full md:w-[32rem] mx-auto p-6 bg-white shadow-lg rounded-lg">
       <h2 className="text-2xl font-bold text-center mb-6">{blog?"Edit Blog":"Create New Blog"}</h2>
       
       <div className="mb-4">
